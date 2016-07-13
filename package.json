@@ -1,0 +1,33 @@
+{
+  "name": "react-apple",
+  "description": "",
+  "version": "0.0.1",
+  "main": "lib/react-apple.js",
+  "author": {
+    "name": "Marat Fakhreev",
+    "email": "marat.fakhreev@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "github": "https://github.com/maratfakhreev/react-apple",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maratfakhreev/react-apple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maratfakhreev/react-apple/issues"
+  },
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {
+    "react": "~15.2.1",
+    "react-dom": "~15.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.10.1",
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "~6.11.1"
+  }
+}
