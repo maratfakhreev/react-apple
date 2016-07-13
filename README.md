@@ -1,26 +1,33 @@
-## React apple
+## React Apple
 
-Short description.
+React Apple makes your code better because Apple makes the world better!
 
-### How to install:
-
-```bash
-npm install react-apple
-```
-
-### How to compile package:
+## How to install:
 
 ```bash
-npm run compile
+npm install react-apple --save
 ```
 
-**Browser:**
+## Usage
+
 ```javascript
-<script>...</script>
-<script src="react-apple.js" type="text/javascript"></script>
+const Apple = require('react-apple');
 ```
 
-**Common JS:**
 ```javascript
-require('react-apple');
+<Apple>
+  // code that you want make better
+</Apple>
 ```
+
+By default Apple component has `className="apple"`. If you want to change it just pass the custom `className` property to component. For example:
+
+```javascript
+<Apple className="banana">
+  // code that you want make better
+</Apple>
+```
+
+## License
+
+[MIT](./LICENSE)

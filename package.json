@@ -1,8 +1,8 @@
 {
   "name": "react-apple",
-  "description": "",
-  "version": "0.0.1",
-  "main": "lib/react-apple.js",
+  "description": "React Apple makes your code better because Apple makes the world better!",
+  "version": "1.0.0",
+  "main": "lib/apple.js",
   "author": {
     "name": "Marat Fakhreev",
     "email": "marat.fakhreev@gmail.com"
