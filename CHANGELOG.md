@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 1.1.0
 - Make custom classNames better
 
 ## 1.0.0
