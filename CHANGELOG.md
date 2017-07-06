@@ -1,6 +1,10 @@
 # Changelog
 
 ## Unreleased
+- Use custom apple tag
+- Write component as pure component
+- Add snapshot test
+- Upgrade dependencies
 
 ## 1.1.0
 - Make custom classNames better

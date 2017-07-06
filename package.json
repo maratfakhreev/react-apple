@@ -19,16 +19,28 @@
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
   },
   "dependencies": {
-    "react": "~15.2.1",
-    "react-dom": "~15.2.1"
+    "prop-types": "^15.5.10"
   },
   "devDependencies": {
-    "babel-cli": "~6.10.1",
-    "babel-preset-es2015": "~6.9.0",
-    "babel-preset-react": "~6.11.1",
-    "babel-preset-stage-0": "~6.5.0"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.6.1"
+  },
+  "jest": {
+    "modulePaths": [
+      "src"
+    ]
   }
 }

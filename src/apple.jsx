@@ -1,14 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class Apple extends React.Component {
-  render() {
-    const { className, ...rest } = this.props;
-    const appleClass = className ? `apple-${className}` : 'apple';
+const Apple = ({ className, children, ...rest }) => (
+  <apple
+    className={ className ? `apple-${className}` : 'apple' }
+    { ...rest }
+  >
+    { children }
+  </apple>
+);
 
-    return (
-      <div className={ appleClass } { ...this.rest }>
-        { this.props.children }
-      </div>
-    );
-  }
-}
+Apple.propTypes = {
+  className: PropTypes.string
+};
+
+export default Apple;
