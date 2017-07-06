@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 2.0.0
 - Use custom apple tag
 - Write component as pure component
 - Add snapshot test

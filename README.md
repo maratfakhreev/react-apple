@@ -31,9 +31,9 @@ By default Apple component has awesome `className="apple"`. But it can help cust
 And you will have a magic inside your html:
 
 ```html
-<div class="apple-macbook">
+<apple class="apple-macbook">
   ...
-</div>
+</apple>
 ```
 
 ## License
